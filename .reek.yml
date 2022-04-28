@@ -2,4 +2,9 @@ detectors:
 
   IrresponsibleModule:
     exclude:
+      - Analyzer
       - FileStorage
+
+  UtilityFunction:
+    exclude:
+      - custom_sort
