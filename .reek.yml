@@ -4,6 +4,7 @@ detectors:
     exclude:
       - Analyzer
       - FileStorage
+      - Printer
 
   UtilityFunction:
     exclude:
