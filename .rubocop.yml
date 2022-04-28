@@ -5,5 +5,12 @@ Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
 
+Metrics/MethodLength:
+  Exclude:
+    - 'app/main.rb'
+
+Naming/RescuedExceptionsVariableName:
+  PreferredName: error
+
 Style/Documentation:
   Enabled: false

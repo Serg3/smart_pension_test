@@ -6,6 +6,10 @@ detectors:
       - FileStorage
       - Printer
 
+  TooManyStatements:
+    exclude:
+      - main
+
   UtilityFunction:
     exclude:
       - custom_sort
