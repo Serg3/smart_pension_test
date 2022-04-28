@@ -47,4 +47,14 @@ describe FileStorage do
       include_examples 'file validator', Errno::ENOENT
     end
   end
+
+  describe '#url_with_ips' do
+    let(:output) do
+      { '/contact' => ['184.123.665.067'], '/help_page/1' => ['126.318.035.038'], '/home' => ['184.123.665.067'] }
+    end
+
+    it 'returns a list url-ips' do
+      expect(subject.url_with_ips).to eq output
+    end
+  end
 end

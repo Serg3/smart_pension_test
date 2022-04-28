@@ -1,0 +1,5 @@
+detectors:
+
+  IrresponsibleModule:
+    exclude:
+      - FileStorage
